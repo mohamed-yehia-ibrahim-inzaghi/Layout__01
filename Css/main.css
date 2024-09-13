@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 950px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+header {
+    background-image: url("../image/karsten-winegeart-6S_sB7N3Klk-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav .logo {
+    width: 128px;
+}
+
+@media (max-width: 768px) {
+    header .container nav .logo {
+        width: 64px;
+    }
+}
+
+header .container nav ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+header .container nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header .container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+
+header .container nav .bx-menu {
+    color: #fff;
+    font-size: 1.2rem;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container nav .bx-menu {
+        display: block;
+    }
+
+}
+
+header .container .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 920px) {
+    header .container .content {
+        top: 55%;
+    }
+}
+
+
+header .container .content h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    
+}
+
+
+header .container .content p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    header .container .content h1 {
+        font-size: 2rem;
+    }
+
+    header .container .content p {
+        font-size: 0.7rem;
+    }
+
+}
+
+header .container .content .btn {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 7px 20px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
